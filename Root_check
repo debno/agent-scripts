@@ -13,3 +13,6 @@ fi
 	 echo " this server is very small"
 	 exit 3
  fi
+ #checking memory
+ free -m
+ exit 0
